@@ -1,0 +1,17 @@
+#main-title {
+  text-align: center;
+  font-family: arial;
+}
+
+#main-description {
+  text-align: center;
+  font-family: arial;
+}
+
+#main-image {
+  width: 60%;
+  height: 60%;
+  border: 3px solid black;
+  display: block;
+  position: center;
+}
