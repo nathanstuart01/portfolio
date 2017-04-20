@@ -19,10 +19,15 @@ body {
 }
 
 li {
-  margin-left: 15px !important;
+  margin-left: 5px !important;
 }
 
 #git-hub-link {
-  width: 5%;
-  height: 5%;
+  width: 25px;
+  height: 25px;
+}
+
+#linkedin-link {
+  width: 25px;
+  height: 25px;
 }
