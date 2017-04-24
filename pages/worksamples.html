@@ -10,34 +10,42 @@
   <link rel='stylesheet' href='../assets/maincss.css'>
   <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
 </head>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="homepage.html"><b>Nathan Stuart</b></a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li><a href="#">Work Samples</a></li>
-        <li><a href="#">Open Source Projects</a></li>
-        <li><a href="#">Relevant Experiences</a></li>
-        <li>
-          <a href='https://github.com/nathanstuart01'>
-            <img id='git-hub-link' src='../assets/githublogo.png' alt="Nathan's GitHub" />
-          </a>
-        </li>
-        <li>
-          <a href='https://www.linkedin.com/in/nathan-stuart/'>
-            <img id='linkedin-link' src='../assets/linkedin.png' alt="Nathan's LinkedIn" />
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+
+
   <body>
-    <div class='container'>
+    <div class='wrapper'>
+
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="homepage.html"><b>Nathan Stuart</b></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="#">Work Samples</a></li>
+          <li><a href="#">Relevant Experiences</a></li>
+          <li>
+            <a href='https://github.com/nathanstuart01'>
+              <img id='git-hub-link' src='../assets/githublogo.png' alt="Nathan's GitHub" />
+            </a>
+          </li>
+          <li>
+            <a href='https://www.linkedin.com/in/nathan-stuart/'>
+              <img id='linkedin-link' src='../assets/linkedin.png' alt="Nathan's LinkedIn" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+ <div class='container'>
+
         <h2 id='main-title'>Work Samples</h2>
         <hr />
+
         <div class='row'>
-          <div class='col-lg-3'>
+          <div class='col-md-4'>
+
+            <h4>Group Led Project:</h4>
             <div class="panel-group">
               <div class="panel panel-default">
                 <div class="panel-heading">
@@ -54,24 +62,28 @@
                   </div>
                   <div class="panel-footer">
                     <a href='http://tram-utah.herokuapp.com/'>http://tram-utah.herokuapp.com/</a>
+                    <a href='https://github.com/luciebecz/tram_capstone'>https://github.com/luciebecz/tram_capstone</a>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
 
+          <div class='col-md-4'>
+            <h4>Individual Projects:</h4>
             <div class="panel-group">
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
-                    <a data-toggle="collapse" href="#collapse1">GearCloset: A Gently Used Outdoor Store</a>
+                    <a data-toggle="collapse" href="#collapse2">B</a>
                   </h4>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse">
+                <div id="collapse2" class="panel-collapse collapse">
                   <div class="panel-body">Tram is an application built using Ruby
                     on Rails for the back-end, React.js for the front-end,
-                    PostgreSQL for the database, and styled with Materialize CSS.
-                    Tram is created to provide others with a platform to carpool
-                    when headed up to the Cottonwood Canyons for a day in the mountains.
+                    PostgreSQL for the database, and styled with Materialize.
+                    Tram is created to provide a platform for carpooling
+                    when headed up the Cottonwood Canyons.
                   </div>
                   <div class="panel-footer">
                     <a href='http://tram-utah.herokuapp.com/'>http://tram-utah.herokuapp.com/</a>
@@ -80,9 +92,69 @@
               </div>
             </div>
           </div>
+
+          <div class='col-md-4'>
+            <h4>Pair Programming Projects:</h4>
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse3">Ruby Casino: Casino Games With Ruby</a>
+                  </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                  <div class="panel-body">Ruby Casino is a program built using Ruby and styled with the ASCII Art Gem. My partner
+                    and I built the casino as a way to improve our Ruby coding abilities and to
+                    provide others with some entertainment. Feel free to download our casino
+                    from the provied GitHub link and test your luck.
+                  </div>
+                  <div class="panel-footer">
+                    <a href='https://github.com/vbarela1/dpl-casino-group'>https://github.com/vbarela1/dpl-casino-group</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+
+        <div class='row'>
+          <div class='col-md-4 col-md-offset-8'>
+            <div class="panel-group">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" href="#collapse4">Rails Trip Tracker: Plan A Great Trip On Rails</a>
+                  </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                  <div class="panel-body">Rails Trip Tracker is an application built
+                    using Ruby on Rails for the back-end, HTML and CSS
+                    for the front-end, PostgreSQL for the database, and styled with Materialize. My partner
+                    and I built the trip tracker as a way for people to plan out their upcoming trips.
+                  </div>
+                  <div class="panel-footer">
+                    <a href='https://github.com/lilarkin/rails-trip-tracker'>https://github.com/lilarkin/rails-trip-tracker</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div class='push'></div>
+    </div>
   </div>
+
+<footer class="footer">
+  <hr />
+  <p id='footer-text'>Site Built By Nathan Stuart:
+       <a href="mailto:nathan.stuart01@gmail.com">nathan.stuart01@gmail.com</a>
+  </p>
+
+</footer>
+
+
+
   <script src='../assets/jquery-3.2.1.min.js'></script>
   <script src='../bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
 </body>
