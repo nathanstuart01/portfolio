@@ -52,3 +52,17 @@ li {
 .footer, .push {
 height: 65px;
 }
+
+.experience-title {
+  float: left;
+}
+
+.experience-date {
+  float: right;
+}
+
+.experience-place {
+  float: left;
+  clear: both;
+  margin-top: -10px;
+}
