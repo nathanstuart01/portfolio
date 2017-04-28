@@ -8,21 +8,28 @@
   font-family: arial;
 }
 
+@media only screen and (max-width: 350px) {
+  #main-description {
+      font-size: 12px !important;
+  }
+}
+
 #main-image {
   width: 40%;
   height: 40%;
   margin-bottom: 5px;
 }
 
-html {
-  height: 100%;
-  margin: 0;
-}
+  html {
+    height: 100%;
+    margin: 0;
+  }
+
 body {
   background-color: #F0F8FF !important;
   height: 100%;
   margin: 0;
-}
+  }
 
 .wrapper {
   min-height: 100%;
@@ -49,6 +56,12 @@ li {
   margin-left: 15px !important;
 }
 
+@media only screen and (max-width: 350px) {
+  #footer-text {
+      font-size: 12px !important;
+  }
+}
+
 .footer, .push {
 height: 65px;
 }
@@ -57,12 +70,51 @@ height: 65px;
   float: left;
 }
 
+@media only screen and (max-width: 350px) {
+  #experience-title-text {
+      font-size: 13px !important;
+  }
+}
+
+
 .experience-date {
   float: right;
 }
+
+@media only screen and (max-width: 350px) {
+  #experience-date-text {
+      font-size: 11px !important;
+  }
+}
+
 
 .experience-place {
   float: left;
   clear: both;
   margin-top: -10px;
+}
+
+@media only screen and (max-width: 450px) {
+  .panel-title {
+      font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .panel-body {
+      font-size: 10.5px !important;
+      overflow: scroll !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .panel-footer {
+    overflow: scroll !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #current-project-list-item {
+    margin-left: -35px !important;
+  }
 }
